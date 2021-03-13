@@ -1,0 +1,99 @@
+.r-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  box-shadow: -1px 0rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.card-cname {
+  position: absolute;
+  top: 16px;
+  right: 60px;
+}
+.card-cp {
+  position: absolute;
+  top: 50px;
+  right: 161px;
+}
+.img-card {
+  width: 40px;
+  height: 30px;
+}
+.img-card img {
+  width: 100%;
+  height: 100%;
+}
+.cus-row {
+  margin-top: 105px;
+}
+
+.card-header {
+  display: flex;
+  grid-gap: 15px;
+  min-height: 60px;
+}
+h3.card-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+h5.card-title {
+  font-size: 11px;
+  color: #777;
+}
+.p-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.p-content p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transition: 0.5s;
+}
+.card {
+  transition: 0.5s;
+}
+ul {
+  list-style: none;
+}
+.modal-close {
+  border-radius: 15px;
+  padding: 0px 6px;
+  border-color: #5555;
+  background: #e84646;
+  border: 1px solid red;
+}
+.modal-span-times {
+  color: #fff;
+  text-align: center;
+}
+.modal {
+  top: 20%;
+  border-radius: 20px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.d-head {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+.txt-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.d-content {
+  color: #08b937;
+}
